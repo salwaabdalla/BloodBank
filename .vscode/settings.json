@@ -1,0 +1,38 @@
+{
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "privilege": "Normal",
+                "thickMode": false,
+                "autoCommit": false,
+                "lowerCase": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1521,
+            "askForPassword": true,
+            "driver": "Oracle",
+            "name": "myconnection",
+            "database": "XE",
+            "username": "SYSTEM"
+        },
+        {
+            "oracleOptions": {
+                "privilege": "Normal",
+                "thickMode": false,
+                "autoCommit": false,
+                "lowerCase": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1521,
+            "askForPassword": true,
+            "driver": "Oracle",
+            "name": "newconnection",
+            "database": "xepdb1",
+            "username": "system"
+        }
+    ]
+}
