@@ -4,7 +4,9 @@ import {
   User, Lock, Eye, EyeOff, AlertCircle, CheckCircle2,
 } from 'lucide-react';
 
-export default function Login() {
+export default function Login()
+{ // Login page for BloodBank users
+
   const [username,  setUsername]  = useState('');
   const [password,  setPassword]  = useState('');
   const [showPwd,   setShowPwd]   = useState(false);
